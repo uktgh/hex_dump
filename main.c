@@ -6,7 +6,7 @@ void print_clear(char* s, int len) {
 
     for (int i = 0; i < len; i++) {
         if (s[i] <= 0x20 || s[i] >= 0x7E) {
-            // resplace special character with .
+            // replace special character with .
             printf(".");
         } else {
             // print the actual character
@@ -46,3 +46,4 @@ int main () {
 
     return 0;
 }
+
